@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40K</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Module /CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo-link">
+                <img src="./Image/logo.png" alt="Logo du Projet Au-delà du Monde" class="logo">
+            </a>
+            <h1>Warhammer 40K</h1>
+            <p class="site-slogan">Explorez les mystères de l'univers</p>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Ouvrir le menu de navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link current-page">Accueil</a></li>
+                <li><a href="./Page web /A_propos.html" class="nav-link">Histoire</a></li>
+                <li><a href="./Page web /Personnage.html" class="nav-link">Personnages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="intro-section">
+            <h1>Bienvenue dans l'univers de Warhammer 40k</h1>
+            <p>« Nos ennemis peuvent se reposer, mais la rouille ne dort jamais. » — Adeptus Mechanicus</p>
+            <div class="call-to-action">
+                <a href="./Page web /A_propos.html" class="button primary-button">Découvrez l'Histoire</a>
+                <a href="./Page web /Personnage.html " class="button secondary-button">Découvrez le monde</a>
+            </div>
+        </section>
+        <section class="featured-content">
+            <h3>Actualités et Mises à Jour</h3>
+            <div class="content-cards">
+                <article class="card">
+                    <img src="./Image/plan.png" alt="Image illustrant une histoire" class="card-image">
+                    <div class="card-body">
+                        <h4>Révélations sur le cosmos</h4>
+                        <p>Des archives récemment découvertes nous éclairent sur les origines du monde</p>
+                        <a href="./Page web /A_propos.html" class="button small-button">Lire plus</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./Image/plan_3.png" alt="Image illustrant un personnage" class="card-image">
+                    <div class="card-body">
+                        <h4>Portrait des Humains </h4>
+                        <p>Plongez dans l'histoire énigmatique des Esprit et de son rôle dans la prophétie.</p>
+                        <a href="./Page_web/Personnage.html" class="button small-button">Lire plus</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./Image/plan_2.png" alt="Image illustrant un lieu du monde" class="card-image">
+                    <div class="card-body">
+                        <h4>Portrait des Xenos</h4>
+                        <p>Quand un être vivant doté d'une concient n'est pas humain</p>
+                        <a href="./Page web /Personnage.html" class="button small-button">Lire plus</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-section about-us">
+                <h3>À Propos de Nous</h3>
+                <p>Ce projet est une exploration d'un univers riche et imaginatif, créé avec passion pour tous les amateurs de fantasy et de science-fiction.</p>
+            </div>
+            <div class="footer-section quick-links">
+                <h3>Liens Rapides</h3>
+                <ul>
+                     <li><a href="index.html" class="nav-link current-page">Accueil</a></li>
+                    <li><a href="./Page web /A_propos.html" class="nav-link">Histoire</a></li>
+                    <li><a href="./Page web /Personnage.html class="nav-link">Personnages</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact</h3>
+                <p>Des questions ou suggestions? Contactez-nous à: <a href="mailto:contact@audeladumonde.com">julienda.david0210@gmail.com</a></p>
+                <div class="social-media">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <details class="glossaire">
+                <summary>Codex</summary>
+                <div class="glossaire-content">
+                   <dl>
+                        <dt>Codex Astartes :</dt>
+                        <dd>Le Codex Astartes est un texte sacré et stratégique dans l’univers de Warhammer 40,000. Rédigé par Roboute Guilliman, primarque des Ultramarines, il sert de guide militaire pour les Space Marines après la guerre civile appelée l’Hérésie d’Horus.
+                        <dd>C'est une Organisation des chapitres(Légions) Space Marines (1 000 guerriers par chapitre)</dd>
+                        <dd>Il regroupe des tactiques de combat, doctrines, marquages et hiérarchie</dd>
+                        <dd>un code moral et disciplinaire à suivre pour éviter une nouvelle guerre interne comme celle des Légions renégates ou l'hérésie d'Orus</dd>
+                        </dl>
+                </div>
+            </details>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Rechercher un mot-clé...">
+                <button onclick="searchKeyword()">Rechercher</button>
+            </div>
+            <p class="copyright">&copy; 2024 Projet Au-delà du Monde. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="./Module /Javascript /script.js"></script>
+</body>
+</html>
